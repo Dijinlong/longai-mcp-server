@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "longai": {
+      "command": "python",
+      "args": ["${PLUGIN_ROOT}/server.py"],
+      "env": {
+        "LONGAI_API_KEY": "${LONGAI_API_KEY}",
+        "LONGAI_BASE_URL": "https://ai.dijinlong.com/v1"
+      }
+    }
+  }
+}
