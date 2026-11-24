@@ -1,0 +1,16 @@
+{
+  "name": "longai-gateway",
+  "displayName": "LONG AI Gateway",
+  "version": "0.1.0",
+  "description": "Query any OpenAI-compatible gateway from Cursor: list models, run a chat with usage, and check whether a relay really is compatible.",
+  "author": {
+    "name": "LONG AI",
+    "email": "support@dijinlong.com",
+    "url": "https://ai.dijinlong.com"
+  },
+  "homepage": "https://ai.dijinlong.com/docs",
+  "repository": "https://github.com/Dijinlong/longai-mcp-server",
+  "license": "MIT",
+  "keywords": ["mcp", "llm", "openai-compatible", "api-gateway", "usage", "compatibility-check"],
+  "logo": "assets/logo.svg"
+}
