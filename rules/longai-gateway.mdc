@@ -1,0 +1,11 @@
+---
+description: Route gateway and model questions through the LONG AI MCP tools instead of guessing.
+alwaysApply: false
+---
+
+# Gateway questions
+
+- If the user names a model or key and asks whether it works, call `list_models` first; only then `chat`.
+- If the user reports a relay behaving oddly (missing tool calls, truncated streams, strange billing, 200 responses carrying an error body), call `check_compatibility` and report the PASS/FAIL line by line.
+- Quote the `usage` object on every `chat` result; do not estimate token counts.
+- Never print the API key or paste it into a file.
