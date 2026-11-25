@@ -17,6 +17,32 @@
 
 ## 安装
 
+**方式一：npm（推荐，零依赖，Node 18+）**
+
+```bash
+npm i -g longai-mcp
+# 或者不安装，直接跑
+npx longai-mcp
+```
+
+包地址：[npmjs.com/package/longai-mcp](https://www.npmjs.com/package/longai-mcp)
+
+对应的 MCP 配置（Claude Desktop / Cursor / Cline 通用）：
+
+```json
+{
+  "mcpServers": {
+    "longai": {
+      "command": "npx",
+      "args": ["-y", "longai-mcp"],
+      "env": { "LONGAI_API_KEY": "sk-your-key" }
+    }
+  }
+}
+```
+
+**方式二：Python（本仓库 server.py）**
+
 ```bash
 pip install "mcp>=1.2"
 git clone https://github.com/Dijinlong/longai-mcp-server.git
