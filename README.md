@@ -1,5 +1,8 @@
 # LONG AI MCP Server
 
+> Listed on [Glama MCP servers](https://glama.ai/mcp/servers/@Dijinlong/longai-mcp-server) · [Official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=longai) · npm: [longai-mcp](https://www.npmjs.com/package/longai-mcp)
+
+
 把 [LONG AI](https://ai.dijinlong.com) 的 OpenAI 兼容网关包成一个 MCP server，让 Claude Desktop / Cursor / Cline 这类客户端可以直接:
 
 - 列模型 (`list_models`)
